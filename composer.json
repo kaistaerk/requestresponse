@@ -1,0 +1,23 @@
+{
+  "name" : "nia/requestresponse",
+  "description" : "nia interface collection component request response design pattern.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "nia/collection-map-stringmap" : "*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "request", "response" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\RequestResponse\\" : "sources/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
