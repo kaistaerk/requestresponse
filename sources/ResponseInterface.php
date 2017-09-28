@@ -52,6 +52,18 @@ interface ResponseInterface
     public function getContent(): string;
 
     /**
+     * Adds a header to the response object.
+     *
+     * @param string $header
+     *              Name of the header
+     * @param string $content
+     *              Value of the header
+     *
+     * @return ResponseInterface Reference to this instance.
+     */
+    public function addHeader(string $header, string $content): ResponseInterface;
+
+    /**
      * Returns the header as a writeable map.
      *
      * @return WriteableMapInterface Header as a writeable map.
